@@ -1,4 +1,10 @@
 {
+    "name": "merce/api",
+    "autoload": {
+      "psr-4": {
+        "Merce\\": "src/"
+      }
+    },
     "require": {
         "firebase/php-jwt": "^6.2",
         "nyholm/psr7": "^1.5"

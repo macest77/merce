@@ -1,24 +1,15 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
-        'name' => '__root__',
+        'reference' => 'be5989abb06f6ecac3e336efe7da3d445cd8cf83',
+        'name' => 'merce/api',
         'dev' => true,
     ),
     'versions' => array(
-        '__root__' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../../',
-            'aliases' => array(),
-            'reference' => NULL,
-            'dev_requirement' => false,
-        ),
         'doctrine/instantiator' => array(
             'pretty_version' => '1.4.1',
             'version' => '1.4.1.0',
@@ -35,6 +26,15 @@
             'install_path' => __DIR__ . '/../firebase/php-jwt',
             'aliases' => array(),
             'reference' => 'd28e6df83830252650da4623c78aaaf98fb385f3',
+            'dev_requirement' => false,
+        ),
+        'merce/api' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => 'be5989abb06f6ecac3e336efe7da3d445cd8cf83',
             'dev_requirement' => false,
         ),
         'myclabs/deep-copy' => array(

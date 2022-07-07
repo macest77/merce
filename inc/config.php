@@ -1,0 +1,2 @@
+<?php
+define("ADMIN_PASSWORD", 'ba595b3cf9b577f241942bac4245e663');

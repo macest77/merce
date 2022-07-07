@@ -29,6 +29,10 @@ class ComposerStaticInit0235f32130efb65da43c354510d8d594
         array (
             'Nyholm\\Psr7\\' => 12,
         ),
+        'M' => 
+        array (
+            'Merce\\' => 6,
+        ),
         'H' => 
         array (
             'Http\\Message\\' => 13,
@@ -48,8 +52,8 @@ class ComposerStaticInit0235f32130efb65da43c354510d8d594
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
         ),
         'Webmozart\\Assert\\' => 
         array (
@@ -67,6 +71,10 @@ class ComposerStaticInit0235f32130efb65da43c354510d8d594
         'Nyholm\\Psr7\\' => 
         array (
             0 => __DIR__ . '/..' . '/nyholm/psr7/src',
+        ),
+        'Merce\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'Http\\Message\\' => 
         array (
