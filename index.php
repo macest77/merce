@@ -25,3 +25,4 @@ switch($method)
     default:
         $_code = 404;
 }
+
